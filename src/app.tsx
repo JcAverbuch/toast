@@ -25,7 +25,7 @@ const webapps: WebApp[] = [
   { name: "SoCal Sailer", description: "Forecasting adverse weather patterns on a multi-day sailing trip", icon: Database, status: "WIP", url: "#" },
   { name: "TukTuk Revolution", description: "Predictive maintence for my tuktuk", icon: Palette, status: "Coming Soon", url: "#" },
   { name: "Shark Bait", description: "Idk how tech will save me here... thinking", icon: Code, status: "Coming Soon", url: "#" },
-  { name: "TBD", description: "WHat crazy crash out will be next...", icon: Globe, status: "Coming Soon", url: "#" },
+  { name: "TBD", description: "What crazy crash out will be next...", icon: Globe, status: "Coming Soon", url: "#" },
 ]
 
 function getStatusColor(status: Status) {
@@ -53,11 +53,10 @@ export default function App() {
               <Activity className="h-8 w-8 text-white" />
             </div>
             <h1 className="mb-4 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-4xl font-extrabold text-transparent">
-              Is Julia Toast????
+              Expedition Hacking
             </h1>
             <p className="text-muted-foreground mx-auto max-w-2xl">
-              Building mini-projects with a market of 1 to make sure I don't die in the wilderness.
-            </p>
+              after being asked a few too many times how i'm not dead yet, i'm building mini-projects with a market of 1 to keep it that way.            </p>
           </div>
 
           {/* Status Card */}
