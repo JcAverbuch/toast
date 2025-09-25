@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* your custom styles can go below */
+:root {
+  --foreground: 222.2 84% 4.9%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+}
+.text-foreground { color: hsl(var(--foreground)); }
+.text-muted-foreground { color: hsl(var(--muted-foreground)); }
