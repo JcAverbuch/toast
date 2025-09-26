@@ -5,9 +5,9 @@ import {
   Activity,
   ExternalLink,
   Globe,
-  Code,
-  Database,
-  Palette,
+  Map,
+  Sailboat,
+  Fish,
   type LucideIcon,
 } from "lucide-react"
 
@@ -22,9 +22,9 @@ type WebApp = {
 }
 
 const webapps: WebApp[] = [
-  { name: "SoCal Sailer", description: "Forecasting adverse weather patterns on a multi-day sailing trip", icon: Database, status: "WIP", url: "http://sail.isjuliatoast.com" },
-  { name: "TukTuk Revolution", description: "Predictive maintence for my tuktuk", icon: Palette, status: "Coming Soon", url: "#" },
-  { name: "Shark Bait", description: "Idk how tech will save me here... thinking", icon: Code, status: "Coming Soon", url: "#" },
+  { name: "SoCal Sailer", description: "Forecasting adverse weather patterns on a multi-day sailing trip", icon: Sailboat, status: "WIP", url: "http://sail.isjuliatoast.com" },
+  { name: "TukTuk Revolution", description: "Predictive maintence for my tuktuk", icon: Map, status: "Coming Soon", url: "#" },
+  { name: "Shark Bait", description: "Idk how tech will save me here... thinking", icon: Fish, status: "Coming Soon", url: "#" },
   { name: "TBD", description: "What crazy crash out will be next...", icon: Globe, status: "Coming Soon", url: "#" },
 ]
 
