@@ -5,7 +5,7 @@ type Props = React.HTMLAttributes<HTMLSpanElement> & {
 }
 
 export function Badge({ variant = "secondary", className = "", ...props }: Props) {
-  const base = "inline-flex items-center rounded-full px-2.5 py-1 text-sm font-medium"
+  const base = "inline-grid place-items-center rounded-full px-2.5 py-1 text-sm font-medium leading-tight text-center"
   const variants = {
     secondary: "bg-slate-100 text-slate-800 border border-slate-200",
     outline: "bg-transparent text-slate-800 border border-slate-200",

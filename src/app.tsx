@@ -100,7 +100,7 @@ export default function App() {
                     className="w-full justify-between transition-colors hover:bg-gray-50"
                     onClick={() => window.open(app.url, "_blank")}
                   >
-                    <span>Launch App</span>
+                    <span className="flex-1 text-center">Launch App</span>
                     <ExternalLink className="h-4 w-4" />
                   </Button>
                 </Card>
